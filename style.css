@@ -1,0 +1,131 @@
+
+
+.imagecls{
+    background-image: url(images/cvpic.jpg);
+    min-height:500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+}
+/* picture er upor likha */
+.second-clr{
+    background-color: rgba(0, 217, 255,0.6);
+    /* min-height: 100px; */
+}
+
+
+.nicherpart{
+    background-color: darkslategrey;
+    /* margin-bottom: 100px;  */
+
+}
+.rgtpart{
+    background-color: darkslategrey;
+    /* height: 2000px; */
+    /* margin-bottom: 100px; */
+} 
+.owncnt,.ownedu,.ownskill{
+    margin-right: 20px;
+    color: white;
+}
+
+.ownabout,.ownachi,.ownproject,.ownex{
+    margin-right: 200px;
+    color: white;
+    margin-top: 40px;
+}
+.iconss{
+    margin-top: 40px;
+    /* margin-bottom: 40px; */
+    margin-left: 30px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.iconss h4{
+    color: white;
+    padding-left: 30px;
+}
+.eduicon{
+    color: white;
+    font-size: 20px;
+    text-shadow:2px 2px 4px #000000;
+    margin-left: 30px;
+    display: flex;
+}
+.clr{
+    color: rgb(0,217,255);
+}
+.txt-clr{
+    color: wheat;
+}
+.eduicon h3{
+    margin-left: 15px;
+}
+
+.ownedudes h5{
+    color: white;
+    margin-left: 60px;
+}
+.ownicon{
+    font-size: 36px;
+    text-shadow:2px 2px 4px #000000;
+}
+.items{
+     display: flex;
+}
+.item1{
+    margin-left: 102px;
+    color: white;
+    font-size: 20px;
+    line-height: 15px;
+}
+.prodes{
+    margin-left: 22px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+/* Skill */
+
+.continer {
+    box-sizing:border-box;
+    border-radius: 10px;
+    width: 75%; 
+    background-color: #ddd;
+    margin-left: 45px;
+}
+
+.skill-items {
+    background-color: rgba(0, 217, 255, 0.1);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.skills {
+  text-align: right; 
+  /* border-radius: 3px; */
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+  color: white;
+}
+
+.html {width: 90%; color: black;margin-bottom: 10px;
+    background-color: rgb(0,217,255);} 
+.css {width: 80%;margin-bottom: 10px;color: black; background-color: rgb(0,217,255);} 
+.js {width: 70%;margin-bottom: 10px;color: black; background-color: rgb(0,217,255);} 
+.php {width: 45%;margin-bottom: 10px;color: black; background-color: rgb(0,217,255);}
+.phy {width: 50%;margin-bottom: 10px;color: black; background-color: rgb(0,217,255);}
+
+/* .skill-items{
+    margin-bottom: 100px;
+} */
+
+/* @media print {
+    html,
+    body {
+      width: 210mm;
+      height: 297mm;
+    }
+} */
